@@ -1,6 +1,6 @@
 {
-    "name": "valinteca-test/msegat",
-    "description": "valinteca msegat test",
+    "name": "valinteca/msegat",
+    "description": "valinteca msegat",
     "type": "library",
     "license": "MIT",
     "autoload": {
