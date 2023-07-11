@@ -11,7 +11,7 @@ A composer package from Valinteca that introduces an easy integration with [Mseg
 
 ## Installation
 ```
-composer require valinteca-test/msegat
+composer require valinteca/msegat
 ```
 <br>
 
