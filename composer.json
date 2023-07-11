@@ -1,0 +1,41 @@
+{
+    "name": "valinteca-test/msegat",
+    "description": "valinteca msegat test",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Valinteca\\Msegat\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Valinteca\\Msegat\\Tests\\": "tests/"
+        }
+    },
+    "authors": [
+        {
+            "name": "kareem-torky",
+            "email": "kareemmfouad.dev@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": "^8.0"
+    },
+    "require-dev": {
+        "orchestra/testbench": "8.x-dev"
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Valinteca\\Msegat\\MsegatServiceProvider"
+            ]  
+        }
+    },
+    "scripts": {
+        "post-autoload-dump": [
+            "@php vendor/bin/testbench package:discover --ansi"
+        ]
+    }
+}
